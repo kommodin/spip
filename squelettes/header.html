@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+<title>Fabrice Douchant</title>
+<meta http-equiv="Content-Type" content="text/html; charset=#CHARSET" />
+
+<link rel="stylesheet" type="text/css" href="#CHEMIN{style.css}" />
+<link rel="shortcut icon" href="#CHEMIN{images/icone.png}" type="image/x-icon" />
+
+<script type="text/javascript" src="#CHEMIN{jquery-1.4.3.min.js}"></script>
+<script type="text/javascript" src="#CHEMIN{fancybox/jquery.mousewheel-3.0.4.pack.js}"></script>
+<script type="text/javascript" src="#CHEMIN{fancybox/jquery.fancybox-1.3.4.pack.js}"></script>
+<link rel="stylesheet" type="text/css" href="#CHEMIN{fancybox/jquery.fancybox-1.3.4.css}" media="screen" />
+<script>
+	$(function() {
+		$('a.lightbox').fancybox({
+			'transitionIn': 'fade',
+			'transitionOut': 'none',
+			'speedIn' : 600,
+			'overlayShow' : true
+		});
+	});
+</script>
+</head>
+<body>
+<div id="content">
+	<div class="header">
+		<h1>/* Fabrice Douchant */</h1>
+		<h2>#DESCRIPTIF_SITE_SPIP</h2>
+		<div class="nav">
+			<a href="[(#URL_SITE_SPIP|parametre_url{lang,[(#LANG|=={fr}|?{'en','fr'})]})]"><img alt="<multi>[fr]English[en]Français</multi>" src="#URL_SITE_SPIP/#DOSSIER_SQUELETTE/images/[(#LANG|=={fr}|?{'en.gif','fr.gif'})]"/></a> - 
+			<a href="[(#URL_SITE_SPIP|parametre_url{lang,#LANG})]"><multi>[fr]À propos[en]About</multi></a> -
+			<a href="#URL_PAGE{projects,lang=#LANG}"><multi>[fr]Mes Projets[en]My Projects</multi></a>
+		</div>
+	</div>

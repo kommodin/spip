@@ -1,0 +1,16 @@
+﻿<INCLURE{fond=header, lang}{self=#SELF}>
+	<div class="section">
+		<BOUCLEn(ARTICLES){id_article}{lang}>
+		<div class="article">
+			<h1>#TITRE</h1>
+			<h2>[(#DATE|affdate)]</h2>
+			#TEXTE
+			<p class="attachments">
+			<BOUCLEdoc(DOCUMENTS){id_article}>
+				<a href="#URL_DOCUMENT">#TITRE #LOGO_DOCUMENT</a>
+			</BOUCLEdoc>
+			</p>
+		</div>
+		</BOUCLEn>
+	</div>
+<INCLURE{fond=footer, lang}{self=#SELF}>

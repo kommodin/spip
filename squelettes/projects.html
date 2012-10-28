@@ -1,0 +1,11 @@
+﻿<INCLURE{fond=header, lang, url_switch_lang}{self=#SELF}>
+	<div class="section">
+		<BOUCLEn(ARTICLES){id_rubrique=2}{lang}{par date}{inverse}>
+		<div class="article">
+			<h1><a href='[(#URL_ARTICLE|parametre_url{lang,#LANG})]'>#TITRE (suite...)</a></h1>
+			<h2>[(#DATE|affdate)]</h2>
+			#DESCRIPTIF
+		</div>
+		</BOUCLEn>
+	</div>
+<INCLURE{fond=footer, lang}{self=#SELF}>
