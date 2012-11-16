@@ -60,16 +60,27 @@ a:hover {
 .tip {
 	font-size: 12px;
 }
+.article h1, h2, h3, h4, h5 {
+	margin: 5px 0px;
+    padding: 0px;
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+}
 .article h1 {
-	margin: 5px 0;
-	padding: 0;
+    font-size: 18px;
+    color: rgb(5, 135, 231);
+    font-weight: bold;
 }
 .article h2 {
-	padding: 0;
-	margin: 0;
-	font-size: 12px;
-	font-style: italic;
-	font-weight: normal;
+    font-size: 17px;
+    color: rgb(5, 135, 231);
+}
+.article h3 {
+    color: darkgrey;
+}
+.article h4, h5 {
+    padding-left: 5px;
 }
 .article .attachments * {
 	vertical-align: middle;
@@ -78,5 +89,5 @@ a:hover {
 	margin: 5px 0;
 }
 #spip-admin {
-                visibility: hidden;
+    visibility: hidden;
 }
