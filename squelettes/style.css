@@ -43,6 +43,11 @@ a:hover {
 	margin: 20px;
 	text-align:justify;
 }
+.section h1 {
+       font-size: 16px;
+       font-weight: bold;
+       color: #0587e7;
+}
 .section p {
 	margin: 20px;
 }
