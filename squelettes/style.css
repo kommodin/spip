@@ -96,6 +96,10 @@ a:hover {
 .article li {
 	margin: 5px 0;
 }
+.article span.upd {
+	color:black;
+	font-size: 12px;
+}
 #spip-admin {
     visibility: hidden;
 }

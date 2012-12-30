@@ -3,7 +3,7 @@
 		<BOUCLEn(ARTICLES){id_article}{lang}>
 		<div class="article">
 			<h1>#TITRE</h1>
-			<i>[(#DATE_MODIF|affdate)]</i>
+			<i>[(#DATE|affdate)] <span class="upd">(<multi>[fr]Mise à jour le[en]Upated on</multi> [(#DATE_MODIF|affdate)])</span></i>
 			#TEXTE
 			<p class="attachments">
 			<BOUCLEdoc(DOCUMENTS){id_article}>
