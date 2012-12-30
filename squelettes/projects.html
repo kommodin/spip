@@ -2,7 +2,7 @@
 	<div class="section">
 		<BOUCLEn(ARTICLES){id_rubrique=2}{lang}{par date_modif}{inverse}>
 		<div class="article">
-			<h1><a href='[(#URL_ARTICLE|parametre_url{lang,#LANG})]'>#TITRE (suite...)</a></h1>
+			<h1><a href='[(#URL_ARTICLE|parametre_url{lang,#LANG})]'>#TITRE <multi>[fr](suite...)[en](more...)</multi></a></h1>
 			<h2>[(#DATE|affdate)] <span class="upd">(<multi>[fr]Mise à jour le[en]Upated on</multi> [(#DATE_MODIF|affdate)])</span></h2>
 			#DESCRIPTIF
 		</div>
