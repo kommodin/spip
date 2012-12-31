@@ -16,10 +16,6 @@ a:link,a:visited {
 a:hover {
 	color: #023860;
 }
-#header * {
-	margin: 0;
-	padding: 0;
-}
 #header h1 {
 	font-size: 24px;
 	font-weight: bold;

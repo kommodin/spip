@@ -1,0 +1,33 @@
+div.nav ul {
+	list-style: none;
+	position: relative;
+	display: inline-table;
+    padding: 0;
+    margin: 0;
+}
+div.nav ul li:hover > ul {
+    display: block;
+}
+div.nav ul li {
+	float: left;
+}
+div.nav ul li a {
+    display: block;
+    padding: 0 15px 0 0;
+}
+
+div.nav ul ul {
+	display: none;
+    padding: 0px;
+    position: absolute; 
+    top: 100%;
+    background-color: white;
+    border: 1px solid black;
+}
+div.nav ul ul li {
+    float: none; 
+    position: relative;
+}
+div.nav ul ul li a {
+    padding: 5px 10px;
+}
