@@ -99,3 +99,10 @@ a:hover {
 #spip-admin {
     visibility: hidden;
 }
+#back_top {
+	position: fixed;
+    bottom: 10px;
+    margin: 0 2%;
+	padding: 0 2%;
+    right: 0;
+}
